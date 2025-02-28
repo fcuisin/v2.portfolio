@@ -1,0 +1,32 @@
+{
+  "projects": [
+    {
+      "title": "Project One",
+      "description": "Une application web moderne construite avec React et Node.js. Intégration complète avec une API RESTful et authentification JWT.",
+      "technologies": ["React", "Node.js", "MongoDB", "Express"],
+      "github": "https://github.com/yourusername/project-one",
+      "featured": true
+    },
+    {
+      "title": "Project Two",
+      "description": "Dashboard analytics avec visualisation de données en temps réel. Utilisation de WebSocket pour les mises à jour en direct.",
+      "technologies": ["Vue.js", "D3.js", "Socket.io", "PostgreSQL"],
+      "github": "https://github.com/yourusername/project-two",
+      "featured": true
+    },
+    {
+      "title": "Project Three",
+      "description": "Application mobile cross-platform développée avec React Native. Synchronisation hors ligne et notifications push.",
+      "technologies": ["React Native", "Firebase", "Redux", "TypeScript"],
+      "github": "https://github.com/yourusername/project-three",
+      "featured": true
+    },
+    {
+      "title": "Project Four",
+      "description": "Site e-commerce avec panier d'achat, paiement en ligne et gestion des commandes. Interface utilisateur intuitive et responsive.",
+      "technologies": ["Next.js", "Stripe", "Tailwind CSS", "Prisma"],
+      "github": "https://github.com/yourusername/project-four",
+      "featured": true
+    }
+  ]
+}

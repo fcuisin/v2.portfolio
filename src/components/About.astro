@@ -1,0 +1,56 @@
+---
+const skills = [
+  "JavaScript (ES6+)",
+  "TypeScript",
+  "React",
+  "Node.js",
+  "Vue.js",
+  "Python",
+  "Docker",
+  "AWS"
+];
+---
+
+<section id="about" class="py-20 min-h-screen flex items-center px-4 sm:px-6 lg:px-8">
+  <div class="max-w-4xl mx-auto">
+    <h2 class="flex items-center gap-2 sm:gap-4 text-2xl sm:text-3xl font-bold text-slate-lighter mb-12">
+      <span class="text-primary font-fira-code text-base sm:text-xl">01.</span>
+      À propos de moi
+      <div class="flex-1 h-px bg-navy-lighter ml-4"></div>
+    </h2>
+
+    <div class="grid md:grid-cols-3 gap-8 md:gap-12">
+      <div class="md:col-span-2 text-secondary">
+        <p class="mb-4 text-base sm:text-lg">
+          Bonjour ! Je suis un développeur passionné par la création d'expériences web exceptionnelles.
+          Mon parcours dans le développement web a commencé il y a quelques années, et depuis,
+          je n'ai cessé d'apprendre et d'explorer de nouvelles technologies.
+        </p>
+        <p class="mb-8 text-base sm:text-lg">
+          Aujourd'hui, je me concentre sur la création d'applications web performantes et accessibles,
+          en utilisant les meilleures pratiques et les technologies modernes.
+        </p>
+
+        <h3 class="text-slate-lighter font-fira-code mb-4 text-base sm:text-lg">Technologies que j'utilise :</h3>
+        <ul class="grid grid-cols-2 gap-2 text-sm sm:text-base">
+          {skills.map(skill => (
+            <li class="flex items-center gap-2 text-secondary">
+              <span class="text-primary">▹</span> {skill}
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <div class="relative group">
+        <div class="relative z-10">
+          <img
+            src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d"
+            alt="Portrait"
+            class="rounded grayscale hover:grayscale-0 transition-all duration-300 w-full"
+          />
+        </div>
+        <div class="absolute inset-0 border-2 border-primary rounded translate-x-5 translate-y-5 -z-10 group-hover:translate-x-4 group-hover:translate-y-4 transition-transform duration-300"></div>
+      </div>
+    </div>
+  </div>
+</section>
